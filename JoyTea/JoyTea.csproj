@@ -235,6 +235,22 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Site.Master" />
+    <Content Include="TeaImages\bamboo-forest.jpg" />
+    <Content Include="TeaImages\cherry-goddess-fruity-tea.jpg" />
+    <Content Include="TeaImages\cream-irish-breakfast.jpg" />
+    <Content Include="TeaImages\cui-ming-green.jpg" />
+    <Content Include="TeaImages\earl-grey-classic.jpg" />
+    <Content Include="TeaImages\english-breakfast-organic.jpg" />
+    <Content Include="TeaImages\florida-orange-juice.jpg" />
+    <Content Include="TeaImages\gunpowder-temple-of-heaven-organic.jpg" />
+    <Content Include="TeaImages\healthy-edge.jpg" />
+    <Content Include="TeaImages\holistic-health.jpg" />
+    <Content Include="TeaImages\japanese-cherry-green.jpg" />
+    <Content Include="TeaImages\pineapple-lemonade.jpg" />
+    <Content Include="TeaImages\pink-berry-moringa.jpg" />
+    <Content Include="TeaImages\pomegranate-raspberry.jpg" />
+    <Content Include="TeaImages\tencha-mimoto-japanese.jpg" />
+    <Content Include="TeaImages\wakoucha-japanese-black.jpg" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -378,6 +394,7 @@
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\Product.cs" />
     <Compile Include="Models\ProductContext.cs" />
+    <Compile Include="Models\ProductDataInitializer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
