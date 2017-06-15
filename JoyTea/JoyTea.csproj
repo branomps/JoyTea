@@ -246,6 +246,7 @@
     <Content Include="TeaImages\healthy-edge.jpg" />
     <Content Include="TeaImages\holistic-health.jpg" />
     <Content Include="TeaImages\japanese-cherry-green.jpg" />
+    <Content Include="TeaImages\logo\logo.png" />
     <Content Include="TeaImages\pineapple-lemonade.jpg" />
     <Content Include="TeaImages\pink-berry-moringa.jpg" />
     <Content Include="TeaImages\pomegranate-raspberry.jpg" />
