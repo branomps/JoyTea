@@ -9,7 +9,7 @@ namespace JoyTea.Models
     public class Category
     {
         [ScaffoldColumn(false)]
-        public int CathegoryID { get; set; }
+        public int CategoryID { get; set; }
 
         [Required,StringLength(100), Display(Name = "Name")]
         public string CategoryName { get; set; }
