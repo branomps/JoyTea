@@ -74,7 +74,12 @@ namespace JoyTea
 
         }
 
-        public IQueryable 
+        public IQueryable<Category> GetCategories()
+        {
+            var _db = new JoyTea.Models.ProductContext();
+            IQueryable<Category> query = _db.Categories;
+            return query;
+        }
         protected void Unnamed_LoggingOut(object sender, LoginCancelEventArgs e)
         {
             Context.GetOwinContext().Authentication.SignOut(DefaultAuthenticationTypes.ApplicationCookie);

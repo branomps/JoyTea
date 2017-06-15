@@ -20,22 +20,22 @@ namespace JoyTea.Models
             {
                 new Category
                 {
-                    CathegoryID = 1,
+                    CategoryID = 1,
                     CategoryName = "Herbal Tea"
                 },
                 new Category
                 {
-                    CathegoryID = 2,
+                    CategoryID = 2,
                     CategoryName = "Green Tea"
                 },
                 new Category
                 {
-                    CathegoryID = 3,
+                    CategoryID = 3,
                     CategoryName = "Black Tea"
                 },
                 new Category
                 {
-                    CathegoryID = 4,
+                    CategoryID = 4,
                     CategoryName = "Fruit Tea"
                 }
 
