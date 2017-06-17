@@ -86,7 +86,7 @@
                 </div>
              </div>   
         <div>
-            <div id="CategoryMenu" style="text-align: center">
+            <div id="CategoryMenu" class="teacategory">
                 <asp:ListView ID="categoryList"
                     ItemType="JoyTea.Models.Category"
                     runat="server"
