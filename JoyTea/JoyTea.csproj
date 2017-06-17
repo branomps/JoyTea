@@ -246,6 +246,7 @@
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="ShoppingCart.aspx" />
     <Content Include="Site.Master" />
+    <Content Include="Style\Style.css" />
     <Content Include="TeaImages\bamboo-forest.jpg" />
     <Content Include="TeaImages\cherry-goddess-fruity-tea.jpg" />
     <Content Include="TeaImages\cream-irish-breakfast.jpg" />
@@ -257,6 +258,7 @@
     <Content Include="TeaImages\healthy-edge.jpg" />
     <Content Include="TeaImages\holistic-health.jpg" />
     <Content Include="TeaImages\japanese-cherry-green.jpg" />
+    <Content Include="TeaImages\logo\JoyTea_barnner.jpg" />
     <Content Include="TeaImages\logo\logo.png" />
     <Content Include="TeaImages\pineapple-lemonade.jpg" />
     <Content Include="TeaImages\pink-berry-moringa.jpg" />

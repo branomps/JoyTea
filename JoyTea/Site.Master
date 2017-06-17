@@ -13,7 +13,7 @@
     </asp:PlaceHolder>
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-
+    <link href="Style/Style.css" rel="stylesheet" />
 </head>
 <body>
     <form runat="server">
@@ -77,6 +77,12 @@
                 </div>
             </div>
         </div>
+        
+       <div class="jumbotron">
+                <div class="container bg">
+                    
+                </div>
+             </div>   
         <div>
             <div id="CategoryMenu" style="text-align: center">
                 <asp:ListView ID="categoryList"
