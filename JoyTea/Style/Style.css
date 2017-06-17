@@ -4,11 +4,13 @@
     font-weight: 300;
     padding-top: -80px;
 }
-
 .navbar {
+    background-color: #1bab1b;
+}
+
+.navbar ul {
     font-size: 1.8rem;
     font-weight: 300;
-    background-color: #1bab1b;
     padding: 10px 0px 10px 0px;
     color:white;
 }

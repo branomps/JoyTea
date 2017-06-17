@@ -15,15 +15,34 @@ namespace JoyTea
         {
 
         }
-        public IQueryable<Product> GetProducts([QueryString("id")] int? categoryId)
+        public List<Product> GetProducts([QueryString("id")] int? categoryId)
         {
             var _db = new JoyTea.Models.ProductContext();
             IQueryable<Product> query = _db.Products;
-            if (categoryId.HasValue && categoryId > 0)
+            List<Product> randomProducts = new List<Product>();
+            //if (categoryId.HasValue && categoryId > 0)
+            //{
+            //    query = query.Where(p => p.CategoryID == categoryId);
+            //}
+            Random rmd = new Random();
+            int count = 1;
+            //int rmdItem = rmd.Next(0, 15);
+            while(count <= 6)
             {
-                query = query.Where(p => p.CategoryID == categoryId);
+                int rmdItem = rmd.Next(0, 15);
+                foreach (var item  in query)
+                {
+                    if(item.ProductID == rmdItem)
+                    {
+                        randomProducts.Add(item);
+                        count++;
+                    }
+
+                }
+                
             }
-            return query;
+            return randomProducts;
         }
+
     }
 }

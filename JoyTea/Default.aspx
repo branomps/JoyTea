@@ -4,7 +4,7 @@
 
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
-        <asp:ListView ID="productList" runat="server" 
+        <asp:ListView ID="Default" runat="server" 
                 DataKeyNames="ProductID" GroupItemCount="3"
                 ItemType="JoyTea.Models.Product" SelectMethod="GetProducts">
                 <EmptyDataTemplate>
