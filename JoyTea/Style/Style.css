@@ -5,6 +5,40 @@
     padding-top: -80px;
 }
 
+.navbar {
+    font-size: 1.8rem;
+    font-weight: 300;
+    background-color: #1bab1b;
+    padding: 10px 0px 10px 0px;
+    color:white;
+}
+.navbar ul :visited {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul :focus {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul :hover {
+    text-decoration: none;
+    color: #65c533;
+}
+a.navbar-brand:visited {
+    text-decoration: none;
+    color: white;
+}
+a.navbar-brand:focus {
+    text-decoration: none;
+    color: white;
+}
+a.navbar-brand:hover {
+    text-decoration: none;
+    color: white;
+}
+
 
 .jumbotron {
     background: url('../TeaImages/logo/JoyTea_barnner.jpg') no-repeat center center;
@@ -14,7 +48,7 @@
 }
 
 .teacategory{
-    background-color:forestgreen;
+    background-color:#1bab1b;
     color:white;
     font-size: 2rem;
     width: 0 auto;

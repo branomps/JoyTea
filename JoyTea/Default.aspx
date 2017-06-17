@@ -3,7 +3,7 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-8 col-md-offset-2">
         <asp:ListView ID="productList" runat="server" 
                 DataKeyNames="ProductID" GroupItemCount="3"
                 ItemType="JoyTea.Models.Product" SelectMethod="GetProducts">

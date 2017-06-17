@@ -47,14 +47,14 @@
             <div class="container">
                 <div class="navbar-header">
                     <a class="navbar-brand" href="#">
-                        <asp:Image ID="Logo" runat="server" ImageUrl="~/TeaImages/logo/logo.png" alt="Brand" Width="50"/>
+                        <asp:Image ID="Logo" runat="server" ImageUrl="~/TeaImages/logo/logowhite.png" alt="Brand" Width="50"/>
                     </a>
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" runat="server" href="~/">JoyTea</a>
+                    <a class=" nav navbar-brand" runat="server" href="~/">JoyTea</a>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
