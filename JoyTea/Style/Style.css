@@ -12,5 +12,22 @@
 .teacategory{
     background-color:forestgreen;
     color:white;
+    width: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
     text-align:center;
 }
+
+.teacategory :visited {
+        text-decoration: none;
+        color: white;
+    }
+.teacategory :focus {
+    text-decoration:none;
+    color:white;
+}
+.teacategory :hover {
+        text-decoration: none;
+        color: #65c533;
+    }
+

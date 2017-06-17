@@ -85,9 +85,11 @@
                     
                 </div>
              </div>   
-        <div>
-            <div id="CategoryMenu" class="teacategory">
-                <asp:ListView ID="categoryList"
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                    <div id="CategoryMenu" class="teacategory">
+                    <asp:ListView ID="categoryList"
                     ItemType="JoyTea.Models.Category"
                     runat="server"
                     SelectMethod="GetCategories" >
@@ -99,7 +101,9 @@
                         </b>
                     </ItemTemplate>
                     <ItemSeparatorTemplate>    |   </ItemSeparatorTemplate>
-                </asp:ListView>
+                    </asp:ListView>
+                   </div>
+               </div>
             </div>
         </div>
         <div class="container body-content">
