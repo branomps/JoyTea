@@ -46,6 +46,12 @@
                                         <b>Price: </b><%#:String.Format("{0:c}", Item.UnitPrice)%>
                                     </span>
                                     <br />
+                                   <a href="addtocart.aspx?productID=<%#:Item.ProductID %>">               
+                                        <span class="productlistitem">
+                                            <b>add to cart<b>
+                                        </span>           
+                                    </a>
+
                                 </td>
                             </tr>
                             <tr>

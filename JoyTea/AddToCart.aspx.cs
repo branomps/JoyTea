@@ -1,11 +1,15 @@
 ﻿using JoyTea.Logic;
+using JoyTea.Models;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Web.ModelBinding;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Data.Entity;
+using System.Threading;
 
 namespace JoyTea
 {
@@ -15,6 +19,7 @@ namespace JoyTea
         {
             string rawId = Request.QueryString["ProductID"];
             int productId;
+
             if (!String.IsNullOrEmpty(rawId) && int.TryParse(rawId, out productId))
             {
                 using (ShoppingCartActions usersShoppingCart = new ShoppingCartActions())
@@ -28,7 +33,7 @@ namespace JoyTea
                 Debug.Fail("ERROR : We should never get to AddToCart.aspx without a ProductId.");
                 throw new Exception("ERROR : It is illegal to load AddToCart.aspx without setting a ProductId.");
             }
-            Response.Redirect("ShoppingCart.aspx");
+            Response.Redirect("ShoppingCart.aspx",false);
         }
     }
 }
