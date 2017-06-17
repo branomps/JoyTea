@@ -1,4 +1,8 @@
-﻿body { 
+﻿body {
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    padding-top: -80px;
 }
 
 
@@ -12,6 +16,7 @@
 .teacategory{
     background-color:forestgreen;
     color:white;
+    font-size: 2rem;
     width: 0 auto;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -31,3 +36,6 @@
         color: #65c533;
     }
 
+.categoryitem{
+    margin: 0px 15px 0px 15px;
+}
