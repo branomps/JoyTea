@@ -42,7 +42,7 @@
                 <%--Site Scripts--%>
             </Scripts>
         </asp:ScriptManager>
-
+        <div class="container main">
         <div class="navbar navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
@@ -115,6 +115,7 @@
                 <p>&copy; <%: DateTime.Now.Year %> - My JoyTea shop</p>
             </footer>
         </div>
+       </div>
     </form>
 </body>
 </html>

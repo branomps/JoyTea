@@ -1,9 +1,9 @@
 ﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="JoyTea._Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-
+ <section class="main">
     <div class="row">
-        <div class="col-md-8 col-md-offset-2">
+        <div class="col-md-12">
         <asp:ListView ID="Default" runat="server" 
                 DataKeyNames="ProductID" GroupItemCount="3"
                 ItemType="JoyTea.Models.Product" SelectMethod="GetProducts">
@@ -23,17 +23,16 @@
                     </tr>
                 </GroupTemplate>
                 <ItemTemplate>
-                    <td runat="server">
-                        <table>
+                    <td class="productitem"  runat="server">
+                        <table class="producttable">
                             <tr>
                                 <td>
                                     <a href="ProductDetails.aspx?productID=<%#:Item.ProductID%>">
-                                        <img src="TeaImages/<%#:Item.ImagePath%>"
-                                            width="100" height="75" style="border: solid" /></a>
+                                        <img class="productimage" src="TeaImages/<%#:Item.ImagePath%>" /></a>
                                 </td>
                             </tr>
                             <tr>
-                                <td>
+                                <td class="productdescription">
                                     <a href="ProductDetails.aspx?productID=<%#:Item.ProductID%>">
                                         <span>
                                             <%#:Item.ProductName%>
@@ -109,5 +108,5 @@
             </p>
         </div>
     </div>
-
+</section>
 </asp:Content>

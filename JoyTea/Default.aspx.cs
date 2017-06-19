@@ -33,9 +33,14 @@ namespace JoyTea
                 foreach (var item  in query)
                 {
                     if(item.ProductID == rmdItem)
-                    {
-                        randomProducts.Add(item);
-                        count++;
+                    {  
+                         randomProducts.Add(item);
+                         count++;
+                        //if (randomProducts.Find(item.ProductID))
+                        //{
+                        //    randomProducts.Remove(item);
+                        //    count--;
+                        //}
                     }
 
                 }

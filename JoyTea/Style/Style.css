@@ -1,8 +1,12 @@
 ﻿body {
     font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color:#f6f6f6;
     font-size: 1rem;
     font-weight: 300;
     padding-top: -80px;
+}
+.main{
+    background-color:white;
 }
 .navbar {
     background-color: #1bab1b;
@@ -28,6 +32,12 @@
     text-decoration: none;
     color: #65c533;
 }
+
+.navbar-brand{
+ margin-top: 10px;
+ font-size: 2.5rem;
+}
+
 a.navbar-brand:visited {
     text-decoration: none;
     color: white;
@@ -74,4 +84,17 @@ a.navbar-brand:hover {
 
 .categoryitem{
     margin: 0px 15px 0px 15px;
+}
+
+.productitem{
+    
+}
+.producttable {
+    display: flex;
+    align-items: center;
+}
+.productimage {
+    
+    width: 389px;
+    height: 290px;
 }
