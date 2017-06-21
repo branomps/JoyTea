@@ -84,14 +84,14 @@
             <h2>Stressed Out!</h2>
             <p>
                 Stress - we all know it, we’ve all felt it. Sometimes a little stress can push us in a positive way, but more often than not, letting stress build up is damaging to our health! Stress can lead to heart disease, weight gain, and depression.
-Whether just dealing with the stresses of daily life, or some life-changing major issue comes up, managing our stress is vital.
+
             </p>
             <p>
                 <a class="btnblog" href="https://go.microsoft.com/fwlink/?LinkId=301948">Learn more &raquo;</a>
             </p>
         </div>
         <div class="col-md-4">
-            <h2>“Flavor”ful Options</h2>
+            <h2>FlavorFull Options</h2>
             <p>
                 At Tealyra, we pride ourselves in offering a huge variety of tea- we love that we have something for everyone! Now, we recognize that some blends aren’t everyone’s “cup of tea”; that’s why we have hundreds of varieties. 
             </p>
