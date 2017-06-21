@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="JoyTea._Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
- <section class="main">
+
     <div class="row">
         <div class="col-md-12">
         <asp:ListView ID="Default" runat="server" 
@@ -34,18 +34,18 @@
                             <tr>
                                 <td class="productdescription">
                                     <a href="ProductDetails.aspx?productID=<%#:Item.ProductID%>">
-                                        <span>
+                                        <span class="producttext">
                                             <%#:Item.ProductName%>
                                         </span>
                                     </a>
                                     <br />
-                                    <span>
+                                    <span class="producttext">
                                         <b>Price: </b><%#:String.Format("{0:c}", Item.UnitPrice)%>
                                     </span>
                                     <br />
                                    <a href="addtocart.aspx?productID=<%#:Item.ProductID %>">               
-                                        <span class="productlistitem">
-                                            <b>add to cart<b>
+                                        <span class="producttext">
+                                            <b class="addtocarthome">add to cart »<b>
                                         </span>           
                                     </a>
 
@@ -59,7 +59,7 @@
                     </td>
                 </ItemTemplate>
                 <LayoutTemplate>
-                    <table style="width:100%;">
+                    <table>
                         <tbody>
                             <tr>
                                 <td>
@@ -78,35 +78,35 @@
             </asp:ListView>
         </div>
     </div>
+    <hr />
     <div class="row">
         <div class="col-md-4">
-            <h2>Getting started</h2>
+            <h2>Stressed Out!</h2>
             <p>
-                ASP.NET Web Forms lets you build dynamic websites using a familiar drag-and-drop, event-driven model.
-            A design surface and hundreds of controls and components let you rapidly build sophisticated, powerful UI-driven sites with data access.
+                Stress - we all know it, we’ve all felt it. Sometimes a little stress can push us in a positive way, but more often than not, letting stress build up is damaging to our health! Stress can lead to heart disease, weight gain, and depression.
+Whether just dealing with the stresses of daily life, or some life-changing major issue comes up, managing our stress is vital.
             </p>
             <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301948">Learn more &raquo;</a>
-            </p>
-        </div>
-        <div class="col-md-4">
-            <h2>Get more libraries</h2>
-            <p>
-                NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.
-            </p>
-            <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301949">Learn more &raquo;</a>
+                <a class="btnblog" href="https://go.microsoft.com/fwlink/?LinkId=301948">Learn more &raquo;</a>
             </p>
         </div>
         <div class="col-md-4">
-            <h2>Web Hosting</h2>
+            <h2>“Flavor”ful Options</h2>
             <p>
-                You can easily find a web hosting company that offers the right mix of features and price for your applications.
+                At Tealyra, we pride ourselves in offering a huge variety of tea- we love that we have something for everyone! Now, we recognize that some blends aren’t everyone’s “cup of tea”; that’s why we have hundreds of varieties. 
             </p>
             <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301950">Learn more &raquo;</a>
+                <a class="btnblog" href="https://go.microsoft.com/fwlink/?LinkId=301949">Learn more &raquo;</a>
+            </p>
+        </div>
+        <div class="col-md-4">
+            <h2>Beyond Tasty</h2>
+            <p>
+                Simply the fragrance of a lovely cup of tea featuring cinnamon alerts and warms the soul. Here we’ll take a look into the benefits and healing properties of cinnamon teas. Cinnamon is instantly recognizable; it has a comforting full aroma.
+            </p>
+            <p>
+                <a class="btnblog" href="https://go.microsoft.com/fwlink/?LinkId=301950">Learn more &raquo;</a>
             </p>
         </div>
     </div>
-</section>
 </asp:Content>
