@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using JoyTea.Models;
+using System.Data.Entity;
 
 namespace JoyTea.Logic
 {
@@ -33,6 +34,8 @@ namespace JoyTea.Logic
                     Quantity = 1,
                     DateCreated = DateTime.Now
                 };
+
+                _db.ShoppingCartItems.Add(cartItem);
             }
             else
             {
