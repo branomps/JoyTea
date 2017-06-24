@@ -87,7 +87,7 @@
 
             </p>
             <p>
-                <a class="btnblog" href="https://go.microsoft.com/fwlink/?LinkId=301948">Learn more &raquo;</a>
+                <a class="btnblog" href="https://go.microsoft.com/fwlink/?LinkId=301948">Read more &raquo;</a>
             </p>
         </div>
         <div class="col-md-4">
@@ -96,7 +96,7 @@
                 At Tealyra, we pride ourselves in offering a huge variety of tea- we love that we have something for everyone! Now, we recognize that some blends aren’t everyone’s “cup of tea”; that’s why we have hundreds of varieties. 
             </p>
             <p>
-                <a class="btnblog" href="https://go.microsoft.com/fwlink/?LinkId=301949">Learn more &raquo;</a>
+                <a class="btnblog" href="https://go.microsoft.com/fwlink/?LinkId=301949">Read more &raquo;</a>
             </p>
         </div>
         <div class="col-md-4">
@@ -105,7 +105,7 @@
                 Simply the fragrance of a lovely cup of tea featuring cinnamon alerts and warms the soul. Here we’ll take a look into the benefits and healing properties of cinnamon teas. Cinnamon is instantly recognizable; it has a comforting full aroma.
             </p>
             <p>
-                <a class="btnblog" href="https://go.microsoft.com/fwlink/?LinkId=301950">Learn more &raquo;</a>
+                <a class="btnblog" href="https://go.microsoft.com/fwlink/?LinkId=301950">Read more &raquo;</a>
             </p>
         </div>
     </div>

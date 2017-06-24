@@ -246,6 +246,7 @@
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="ShoppingCart.aspx" />
     <Content Include="Site.Master" />
+    <Content Include="Style\mapstyle.css" />
     <Content Include="Style\Style.css" />
     <Content Include="TeaImages\bamboo-forest.jpg" />
     <Content Include="TeaImages\cherry-goddess-fruity-tea.jpg" />
