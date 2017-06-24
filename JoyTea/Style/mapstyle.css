@@ -3,3 +3,15 @@
     height:350px;
     background-color:darkgrey;
 }
+
+address{
+    font-size:1.5rem;
+}
+abbr[title] {
+    border:none;
+    text-decoration: none;
+}
+address abbr {
+    border: none;
+    text-decoration: none;
+}
