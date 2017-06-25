@@ -8,6 +8,7 @@ using System.Web.Security;
 using System.Web.SessionState;
 using System.Data.Entity;
 using JoyTea.Models;
+using JoyTea.Logic;
 
 namespace JoyTea
 {
@@ -21,6 +22,11 @@ namespace JoyTea
 
             //Inittialize the product database.
             Database.SetInitializer(new ProductDataInitializer());
+
+            // Create the custom role and user.
+            RoleActions roleActions = new RoleActions();
+            roleActions.AddUserAndRole();
+
         }
     }
 }
