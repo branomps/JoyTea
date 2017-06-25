@@ -39,16 +39,16 @@ namespace JoyTea.Logic
             var userMgr = new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(context));
             var appUser = new ApplicationUser
             {
-                UserName = "canEditUser@wingtiptoys.com",
-                Email = "canEditUser@wingtiptoys.com"
+                UserName = "canEditUser@joytea.com",
+                Email = "canEditUser@joytea.com"
             };
-            IdUserResult = userMgr.Create(appUser, "Pa$$word1");
+            IdUserResult = userMgr.Create(appUser, "Branislav12*");
 
             // If the new "canEdit" user was successfully created, 
             // add the "canEdit" user to the "canEdit" role. 
-            if (!userMgr.IsInRole(userMgr.FindByEmail("canEditUser@wingtiptoys.com").Id, "canEdit"))
+            if (!userMgr.IsInRole(userMgr.FindByEmail("canEditUser@joytea.com").Id, "canEdit"))
             {
-                IdUserResult = userMgr.AddToRole(userMgr.FindByEmail("canEditUser@wingtiptoys.com").Id, "canEdit");
+                IdUserResult = userMgr.AddToRole(userMgr.FindByEmail("canEditUser@joytea.com").Id, "canEdit");
             }
         }
     }
