@@ -8,17 +8,28 @@
             <br />
             <table>
                 <tr>
-                    <td>
-                        <img src="TeaImages/<%#:Item.ImagePath%>" style="border:solid; height:300px" alt="<%#:Item.ProductName %>"/>
+                    <td class="detailstdheight">
+                        <img src="TeaImages/<%#:Item.ImagePath%>" alt="<%#:Item.ProductName %>"/>
                     </td>
                     <td>&nbsp;</td>  
-                    <td style="vertical-align: top; text-align:left;">
-                        <b>Description:</b><br /><%#:Item.Description %>
+                    <td>
+                        <span class="detailsheader">
+                                Description   
+                        </span>
                         <br />
-                        <span><b>Price:</b>&nbsp;<%#: String.Format("{0:c}", Item.UnitPrice) %></span>
+                        <p class="detailstext">
+                            <%#:Item.Description %>
+                        </p>
                         <br />
-                        <span><b>Product Number:</b>&nbsp;<%#:Item.ProductID %></span>
+                        <span class="detailsheader"><b>Price:</b>&nbsp;<%#: String.Format("{0:c}", Item.UnitPrice) %></span>
                         <br />
+                        <span class="detailsheader"><b>Product Number:</b>&nbsp;<%#:Item.ProductID %></span>
+                        <br />
+                         <a class="btnproductdetails" href="/AddToCart.aspx?productID=<%#:Item.ProductID %>">               
+                                        <span>
+                                            <b>add to cart »</b>
+                                        </span>           
+                        </a>
                     </td>
                 </tr>
             </table>

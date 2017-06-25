@@ -7,12 +7,20 @@
 }
 h1, h2, h3, h4, h5, h6, p  {
     font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
-} 
+}
+p {
+    word-break: break-all;
+    font-size: 1.5rem;
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 .main {
     background-color: white;
 }
 .navbar {
     background-color: #1bab1b;
+    color: white;
 }
 
 .navbar ul {
@@ -126,36 +134,78 @@ span.producttext {
  text-decoration:none;
 }
 
-span b.addtocarthome {
+a.btnhome {
     position: relative;
-    background-color: #65c533;
     left: 230px;
-    padding: 5px;
     border: 0.5px solid white;
-}
-
-span b.addtocart {
-    position: relative;
+    text-decoration: none;
     background-color: #65c533;
-    left: 150px;
-    padding: 5px;
+    color: white;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    font-weight: normal;
+    line-height: 1.5rem;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+}
+
+a.btnhome:hover {
+    text-decoration: none;
+    color: #65c533;
+    background-color: white;
+    border: 1px solid #1bab1b;
+}
+
+a.btnproductdetails {
+    position: relative;
+    left: 290px;
     border: 0.5px solid white;
+    text-decoration: none;
+    background-color: #65c533;
+    color: white;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    font-weight: normal;
+    line-height: 1.5rem;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
 }
 
-span b.addtocart:hover, span b.addtocarthome:hover {
+    a.btnproductdetails:hover {
+        text-decoration: none;
+        color: #65c533;
         background-color: white;
-        color: #1bab1b;
-        border: 0.5px solid #1bab1b;
+        border: 1px solid #1bab1b;
+    }
 
+a.btnproduct {
+    position: relative;
+    left: 140px;
+    border: 0.5px solid white;
+    text-decoration: none;
+    background-color: #65c533;
+    color: white;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    font-weight: normal;
+    line-height: 1.5rem;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
 }
 
-p{
-  word-break:break-all;
-  font-size:1.5rem;
-  margin-left:15px;
-  margin-top:20px;
-  margin-bottom:20px;
-}
+    a.btnproduct:hover {
+        text-decoration: none;
+        color: #65c533;
+        background-color: white;
+        border: 1px solid #1bab1b;
+    }
+
 
 .btnblog {
     display: inline-block;
@@ -179,3 +229,20 @@ p{
         background-color: white;
         border: 1px solid #1bab1b;
     }
+
+.detailsheader{
+    font-size:2rem;
+    line-height:2rem;
+    font-weight:600;
+    margin-top:20px;
+    text-transform:capitalize;
+    line-height: 2.2rem;
+
+}
+p.detailstext
+{
+    padding:10px 50px 10px 0;
+}
+td.detailstdheight, td.detailstdheight>img{
+    width:500px;
+}

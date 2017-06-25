@@ -59,11 +59,11 @@ namespace JoyTea
             //   appId: "",
             //   appSecret: "");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "470132744770-dhobkcp04s3q2j7q6hp3gca1otmnu84f.apps.googleusercontent.com",
+                ClientSecret = "r2BQZn-ZqziYaNst6UEaaymi"
+            });
         }
     }
 }
