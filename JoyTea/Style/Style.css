@@ -139,6 +139,30 @@ span.producttext {
  text-decoration:none;
 }
 
+.btnnormal {
+    position: relative;
+    left: 230px;
+    border: 0.5px solid white;
+    text-decoration: none;
+    background-color: #65c533;
+    color: white;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    font-weight: normal;
+    line-height: 1.5rem;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+}
+
+.btnnormal:hover, .btnnormal:active {
+        text-decoration: none;
+        color: #65c533;
+        background-color: white;
+        border: 1px solid #1bab1b;
+    }
+
 a.btnhome {
     position: relative;
     left: 230px;
@@ -250,4 +274,9 @@ p.detailstext
 }
 td.detailstdheight, td.detailstdheight>img{
     width:500px;
+}
+
+.form-group {
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.5rem;
 }
