@@ -8,7 +8,7 @@ namespace JoyTea.Models
 {
     public class ProductContext : DbContext
     {
-        public ProductContext() : base("JoyTea")
+        public ProductContext() : base("DefaultConnection")
         {
 
         }

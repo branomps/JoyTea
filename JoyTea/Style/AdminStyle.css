@@ -1,0 +1,50 @@
+﻿
+img{
+    width:200px;
+
+}
+
+table.adminproducts{
+    border:1px solid #808080;
+    margin: 10px 0 10px 0;
+}
+.adminproducts th {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: black;
+    border: 1px solid #808080;
+    padding: 2px;
+}
+.adminproducts td {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: black;
+    border: 1px solid #808080;
+    padding: 2px;
+}
+
+.btnnormal {
+    position: relative;
+    left:0;
+    border: 0.5px solid white;
+    text-decoration: none;
+    background-color: #65c533;
+    color: white;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    font-weight: normal;
+    line-height: 1.5rem;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+}
+
+    .btnnormal:hover, .btnnormal:active {
+        text-decoration: none;
+        color: #65c533;
+        background-color: white;
+        border: 1px solid #1bab1b;
+}
